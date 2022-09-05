@@ -1,7 +1,5 @@
 ﻿// Программа просматривает папку и все папки в папках с помощью рекурсии
 string path = "./example"; //D:/MY WORK/IT/GeekBrain/С#/PRAGRAMS/Programs recurs derictories/example
-//DirectoryInfo di = new DirectoryInfo(path);
-//Console.Write($"{di.FullName}");
 
 void LookThroughDirectory(string link, string indent = "")
 {
